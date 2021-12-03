@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "compilar": "./node_modules/.bin/babel src --out-dir lib",
+    "ejecutar": "node lib/main.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  }
+}
